@@ -15,15 +15,25 @@ each header is to be entered.
 
 Here's a quick demo of how this might look.
 > `python app.py 10`
+
 > `Column 1 name: ` name
+
 > `Column 2 name: ` temperature_C
+
 > `Column 3 name: ` sweat_level
+
 > `Column 4 name: ` hydration_level
+
 > `Column 5 name: ` has_fever
+
 > `Column 6 name:`
 
 > `Type for "name"`: char 4 10
+
 > `Type for "temperature"`: int 36 40
+
 > `Type for "sweat_level"`: int 0 10
+
 > `Type for "hydration_level"`: int 1 10
-> `Type for "is_alcoholic"`: bool 0 1
+
+> `Type for "has_fever"`: int 0 1
